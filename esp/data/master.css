@@ -1,0 +1,41 @@
+/***************************TAG SELECTORS*******************************/
+div {
+  margin: 0;
+  position: relative;
+}
+
+h1 {
+  margin: 0 auto 0 auto;
+  color: #00587a;
+  line-height: 2;
+  font-size: 3rem;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  color: #40514E;
+  background-color: #0f3057;
+}
+
+p {
+  color: #e7e7de;
+}
+
+/**********************************ID SELECTORS**********************/
+#redDiv {
+  color: red;
+}
+
+#greenDiv {
+  color: green;
+}
+
+#blueDiv {
+  color: blue;
+}
+
+#lightDiv {
+  color: white;
+}

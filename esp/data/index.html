@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>LED Control</title>
+    <link rel="stylesheet" type = "text/css" href="master.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1>LED Control</h1>
+    <form class="colorselect" action="index.html" method="post">
+      <input type="color" name="wheel" value="#000000" id="colorWheel">
+    </form>
+    <form class="slider" action="index.html" method="post">
+      <div class="colorslider" id="redDiv">
+        <h3>Red</h3>
+        <input type="range" min="0" max="255" value=%RED% class="slider" id="redSlider">
+      </div>
+      <div class="colorslider" id="greenDiv">
+        <h3>Green</h3>
+        <input type="range" min="0" max="255" value=%GREEN% class="slider" id="greenSlider">
+      </div>
+      <div class="colorslider" id="blueDiv">
+        <h3>Blue</h3>
+        <input type="range" min="0" max="255" value=%BLUE% class="slider" id="blueSlider">
+      </div>
+      <div class="colorslider" id="lightDiv">
+        <h3>Light</h3>
+        <input type="range" min="0" max=%MAX_LIGHT% value=%DEFAULT_LIGHT% class="slider" id="intesitySlider">
+      </div>
+        <p>Rainbow: <input type="checkbox" id="rainbow"></p>
+        <p>Pulse: <input type="checkbox" id="pulse"></p>
+      <script src="script.js" charset="utf-8"></script>
+    </form>
+  </body>
+</html>
